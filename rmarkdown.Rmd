@@ -1,0 +1,76 @@
+---
+title:  "6060 Practice: RMarkdown"
+author: "Brooke Charbonneau"
+output:
+  pdf_document:
+    number_sections: yes
+    toc_depth: 3
+---
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(tidyverse)
+library(apaTables)
+
+```
+
+# Comparing rating-complaint to rating-critical correlations
+
+Here are words explaining this correlation
+
+delta r = .67, 95% CI (.32, 1.04)
+
+So it is significant? yes. Null hypothesis rejected because interval does not include 0.
+Can also throw in p value
+
+\pagebreak
+
+# Comparing rating-complaint to raises-critical correlations
+
+Here are words explaining this correlation
+
+delta r = .45, 95% CI (.14, .81)
+
+So it is significant? yes. Null hypothesis rejected because interval does not include 0.
+Can also throw in p value
+
+\pagebreak
+
+#Replication of rating-privileges correlation 
+
+Original study: r = 0.43, N = 30, 95% CI[0.08, 0.68]
+Replication study: N = 100
+Prediction interval: 95% PI[0.05,0.74].
+
+
+Interpretation:
+The original correlation is 0.43 - with a prediction interval 95% PI[0.05, 0.74] based a replication sample size of N = 100. If the replication correlation differs from the original correlation only due to sampling error, there is a 95% chance the replication result will fall in this interval. If the replication correlation falls outside of this range, factors beyond sampling error are likely also responsible for the difference.
+
+\pagebreak
+
+#Replication of rating-privileges correlation 
+
+Cannot do it - width maxes out at 1000. If original had small n and replication study has large n, but the original study had a narrow PI and the replication r does not with within this PI, it still not very meaningful as the replication study may be more valid than the original one.
+Also, small sample size - not possible to do this.
+
+\pagebreak
+
+#Comparing two correlation of rating-privileges
+
+Here are words explaining this correlation
+
+delta r = .33, 95% CI (-.02, .59)
+
+So it is significant? no. Null hypothesis retained because interval includes 0.
+Can also throw in p value
+
+#Comparing two correlation of rating-privileges
+
+Here are words explaining this correlation
+
+delta r = .33, 95% CI (-.02, .59)
+
+It could be as low as -.02 and as high as .59, even though the original correlation obtained of .43 appears to be medium. As such, there is likely a small positive effect. 
+
