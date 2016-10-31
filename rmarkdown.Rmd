@@ -37,18 +37,17 @@ The original study found a ratings-privileges correlation of *r* = .43, 95% CI [
 #Replication of rating-privileges correlation 
 
 
-
-It is not possible to do this because of the small sample size; the width does not change with a sample size of 1000. Additionally, even if it were possible, it wouldn't matter due to the small sample size from the original study. If the original study had small n and the replication study has large n, but the original study had a narrow PI and the replication r does not with within this PI, it still not very meaningful as the replication study may be more valid than the original one.
+It is not possible to do this because of the large confidence interval in the original ratings-privileges correlation. Prediction intervals involve similar calculations to confidence intervals, and difference confidence intervals are always larger than the two individual correlation confidence intervals that are being compared. Because the original study found a ratings-privileges confidence interval with a width of .60, it is not possible to calculate a prediction interval with a smaller width.
 
 
 #Comparing two correlations of rating-privileges
 
 
-The comparison correlation between orginal and replication studies on the correlation of ratings and privileges was delta *r* = .33, 95% CI [-.02,.59]. However, the CI is quite long and could indicate either a positive or very weak negative relationship. This means that, while it is likely that the two correlations are different, we cannot rule out that they came from the same population. 
+The comparison correlation between orginal and replication studies on the correlation of ratings and privileges was delta *r* = .33, 95% CI [-.02,.59], *p* = .07 . Statistically, this means that  we cannot rule out that the two correlations came from the same population. 
 
 
 #Strength of rating-privileges
 
 
-The correlation between ratings and privileges obtained in Table 1 was *r* = .43, 95% CI [.08, .68]. Additionally, we could not rule out that a correlation of .10 came from a different population. This correlation has a long CI, and indicates that the relationship between ratings and privileges is likely positive. However, the result is consistent with anywhere from a weak positive to a strong positive relationship. 
+The correlation between ratings and privileges obtained in Table 1 was *r* = .43, 95% CI [.08, .68]; however, this correlation came from a sample of 30. We could not rule out that a correlation of .10 from a sample of 1000 came from a different population. Because a sample size of 1000 is considerably larger than a sample size of 30, we should assume that the second correlation is much more informative than the first study. As such, we can infer that there is likely a weak positive correlation between ratings and privileges. 
 
