@@ -18,7 +18,7 @@ library(apaTables)
 
 # Comparing rating-complaint to rating-critical correlations
 
-The correlation between ratings and complaints and ratings and critical was *r* = .67, 95% CI [.32,1.00], *N* = 30. However, the CI is quite long, and is consistent with anywhere from a medium positive to a very strong positive relationship.
+The comparison for the correlations between ratings and complaints and ratings and critical was delta *r* = .67, 95% CI [.32,1.00], *N* = 30. However, the CI is quite long, and is consistent with anywhere from a medium positive to a very strong positive relationship. This indicates that the rating-complaint correlation (*r* = .83, 95% CI [.66,.91]) is likely stronger than the ratings-critical (*r* = .16, 95% CI[-.22, .49) correlation.
 
 
 \pagebreak
@@ -26,7 +26,7 @@ The correlation between ratings and complaints and ratings and critical was *r* 
 # Comparing rating-complaint to raises-critical correlations
 
 
-The correlation between ratings and complaints and raises and critical was *r* = .45, 95% CI [.14,.81], *N* = 30. However, the CI is quite long, and is consistent with anywhere from a weak positive to a very strong positive relationship.
+The comparison for the correlation between ratings and complaints and raises and critical was delta *r* = .45, 95% CI [.14,.81], *N* = 30. However, the CI is quite long, and is consistent with anywhere from a weak positive to a very strong positive relationship. This indicates that the rating-complaint correlation (*r* = .83, 95% CI [.66,.91]) is likely stronger than the ratings-critical (*r* = .38, 95% CI[.02, .65) correlation.
 
 \pagebreak
 
@@ -34,19 +34,25 @@ The correlation between ratings and complaints and raises and critical was *r* =
 
 
 Interpretation:
-The original study found a correlation of *r* = .43, 95% PI[0.05, 0.74], *N* = 30. This means that if the replication correlation differs from the original correlation only due to sampling error, there is a 95% chance the replication result will fall in this interval with a replication sample size of *N* = 100. If the replication correlation falls outside of this range, factors beyond sampling error are likely also responsible for the difference.
+The original study found a ratings-privileges correlation of *r* = .43, 95% CI [08, .68], 95% PI[.05, 0.74], *N* = 30. This means that if the replication correlation differs from the original correlation only due to sampling error, there is a 95% chance that a replication result with a sample size of *N* = 100 will fall in the interval of .05 and .74. If the replication correlation falls outside of this range, factors beyond sampling error are likely also responsible for the difference.
 
 \pagebreak
 
 #Replication of rating-privileges correlation 
 
-Cannot do it - width maxes out at 1000. If original had small n and replication study has large n, but the original study had a narrow PI and the replication r does not with within this PI, it still not very meaningful as the replication study may be more valid than the original one.
-Also, small sample size - not possible to do this.
+Cannot do it - width maxes out at sample size of 1000. Not possible to do this because of the small sample size. Even if possible, it wouldn't matter. If original had small n and replication study has large n, but the original study had a narrow PI and the replication r does not with within this PI, it still not very meaningful as the replication study may be more valid than the original one.
 
 \pagebreak
 
 #Comparing two correlations of rating-privileges
 
 
-The correlation between orginal and replication studies on the correlation of ratings and privileges was *r* = .33, 95% CI [-.02,.59], *N* = 30. However, the CI is quite long, and likely indicates a positive relationship.
+The comparison correlation between orginal and replication studies on the correlation of ratings and privileges was delta *r* = .33, 95% CI [-.02,.59]. However, the CI is quite long and could indicate either a positive or very weak negative relationship. This means that, while it is likely that the two correlations are different, we cannot rule out that they came from the same population. 
+
+\pagebreak
+
+#Strength of rating-privileges
+
+
+The correlation between ratings and privileges obtained in Table 1 was *r* = .43, 95% CI [.08, .68]. Additionally, we could not rule out that a correlation of .10 came from a different population. This correlation has a long CI, and indicates that the relationship between ratings and privileges is likely positive. However, the result is consistent with anywhere from a weak positive to a strong positive relationship. 
 
